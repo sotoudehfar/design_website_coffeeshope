@@ -85,14 +85,14 @@
     <!-- End All App Icons -->
   
   
-    <header class="fixed top-9 right-0 left-0 flex  items-center bg-black/50 w-[90%] h-24  mx-auto py-5 pl-4 pr-10 px-10 rounded-3xl  backdrop-blur-[6px]">
+    <header class="fixed top-9 right-0 left-0 hidden md:flex items-center bg-black/50 w-[98%] lg:w-[90%] h-24  mx-auto py-5 pl-4 pr-10 px-5 lg:px-10 rounded-3xl  backdrop-blur-[6px]">
       <div class="flex items-center justify-between w-full ">
      <!-- logo and menu -->
-      <nav class="flex items-center gap-x-9 h-16">
-        <div>
+      <nav class="flex items-center gap-x-6 lg:gap-x-9 h-14">
+        <div class="shirink-0">
           <img src="/public/images/svgs/logo.svg" alt="Golde coffe" />
         </div>
-        <ul  class="flex  h-full items-center gap-x-8 text-xl text-gray-300 font-DanaMedium  tracking-tightest *:leading-[56px] ">
+        <ul  class="flex gap-x-5 lg:gap-x-9 h-full items-center text-xl text-gray-300 font-DanaMedium  tracking-tightest *:leading-[56px] ">
           <li class="text-orange-200 ">
             <a href="#">صفحه اصلی</a>
           </li>
@@ -124,9 +124,9 @@
         </ul>
       </nav>
       <!-- cat @ theme toggle -->
-      <div class="flex  text-orange-200 gap-x-10 text-xl">
+      <div class="flex  gap-x-4 lg:gap-x-5 xl:gap-x-10 text-xl  text-orange-200">
         <!-- Cart Icon @ theme Switch Btn -->
-        <div class="flex items-center gap-x-5">
+        <div class="flex items-center gap-x-4 lg:gap-x-5">
           <!-- Cart  سبد خرید -->
           <div class="relative group">
              <div class="py-3 cursor-pointer">
@@ -185,19 +185,8 @@
                       </div>     
                              <a href="#" class=" flex justify-center items-center h-14 w-[144px] text-white font-DanaMedium bg-teal-600 dark:bg-emerald-500 hover:bg-teal-700 dark:hover:gb-emerald-600 transition-colors rounded-xl tracking-tightest"> ثبت سفارش</a>
                       </div>
-                    
-                    
-                   </div>
-
-
-                   
-                   <div></div>
-        
-             
-
-
-
-
+                    </div>
+                    <div></div>
              </div>
           </div>
              <div class="cursor-pointer" id="toggle-theme">
@@ -210,8 +199,10 @@
     
         <span class=" block w-px h-14 bg-white/20"></span>
         <!-- Login Link -->
-         <a href="#" class="flex items-center gap-x-5 tracking-tightest">  <svg class="w-8 h-8"> <use href="#arrow-right-start-on-rectangle"></use> </svg> ثبت نام | ورودی</a
-        >
+         <a href="#" class="flex items-center gap-x-5 tracking-tightest"> 
+           <svg class="w-8 h-8"> <use href="#arrow-right-start-on-rectangle"></use> </svg>
+            <span class="hidden xl:inline-block">ثبت نام|ورود</span>            
+          </a>
       </div>
     </header>
     <script src="/script/app.js"></script>
